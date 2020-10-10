@@ -52,14 +52,17 @@ namespace calculator
 			}
 			finally
 			{
-                if (dt.Compute(resultText.Text, null).ToString() == "+nekonečno")
-				{
-					resultText.Text = "ERROR";
-					z = false;
-				}
-				if (z)
-				{
-					resultText.Text = dt.Compute(resultText.Text, null).ToString();
+                if (resultText.Text != "ERROR")
+                {
+					if (dt.Compute(resultText.Text, null).ToString() == "+nekonečno" || dt.Compute(resultText.Text, null).ToString() == "-nekonečno")
+					{
+						resultText.Text = "ERROR";
+						z = false;
+					}
+					if (z)
+					{
+						resultText.Text = dt.Compute(resultText.Text, null).ToString();
+					}
 				}
 			}
 
@@ -69,10 +72,7 @@ namespace calculator
             if (resultText.Text != "")
             {
 				resultText.Text = resultText.Text.Remove(resultText.Text.Length - 1);
-			}
-            
-
-			
+			}	
         }
 
 	}
