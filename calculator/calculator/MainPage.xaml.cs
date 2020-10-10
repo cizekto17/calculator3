@@ -64,6 +64,16 @@ namespace calculator
 			}
 
 		}
+		public void DeleteOne(object sender, EventArgs e)
+        {
+            if (resultText.Text != "")
+            {
+				resultText.Text = resultText.Text.Remove(resultText.Text.Length - 1);
+			}
+            
+
+			
+        }
 
 	}
 }

@@ -11,3 +11,4 @@ C:\Users\tomas\source\repos\calculator\calculator\calculator\obj\Debug\netstanda
 C:\Users\tomas\source\repos\calculator\calculator\calculator\obj\Debug\netstandard2.0\calculator.dll
 C:\Users\tomas\source\repos\calculator\calculator\calculator\obj\Debug\netstandard2.0\ref\calculator.dll
 C:\Users\tomas\source\repos\calculator\calculator\calculator\obj\Debug\netstandard2.0\calculator.pdb
+C:\Users\tomas\source\repos\calculator\calculator\calculator\obj\Debug\netstandard2.0\calculator.csprojAssemblyReference.cache
